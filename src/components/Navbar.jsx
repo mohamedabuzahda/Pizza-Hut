@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from "../assets/unnamed.png"
 
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-black  sticky-top">
             <div className="container">
                 <Link className="navbar-brand" to="/">
-                    <img src="../../public/assets/unnamed.png" alt="Pizza Hut Logo" />
+                    <img src={logo} />
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span className="navbar-toggler-icon"></span>

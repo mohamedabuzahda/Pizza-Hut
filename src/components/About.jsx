@@ -1,5 +1,5 @@
 import React from "react";
-
+import img from "../assets/pizzahutrestaurant-552x312.jpg"
 const About = () => {
   return (
     <section id="about" className="py-5 bg-light">
@@ -7,7 +7,7 @@ const About = () => {
       <div className="container">
         <h2 className="text-center mb-4">About Pizza Hut</h2>
        <div className="container-fluid">
-         <img className="about-img" src="../../public/assets/pizzahutrestaurant-552x312.jpg" alt="" />
+         <img className="about-img" src={img} alt="" />
        </div>
         <p className="lead text-center mb-4">
           At Pizza Hut, we believe that great food brings people together. Since

@@ -6,7 +6,7 @@ body {
     height: 40px;
 }
 .hero-section {
-    background:  url('../public/assets/66f48792e4d96.webp');
+    background:  url('../src/assets/66f48792e4d96.webp');
     background-size: cover;
     background-position: center;
     height: 100vh;
